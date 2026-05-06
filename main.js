@@ -137,3 +137,22 @@ document
   .forEach((el) => {
     observer.observe(el);
   });
+
+(function () {
+  emailjs.init("80xgRbDR_acZFeMLg");
+})();
+
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    emailjs.sendForm("service_775ov9t", "template_ppudjfl", this).then(
+      () => {
+        alert("Message sent successfully!");
+      },
+      (error) => {
+        alert("Failed to send message");
+      },
+    );
+  });
