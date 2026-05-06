@@ -1,0 +1,61 @@
+@media (max-width: 900px) {
+  header {
+    padding: 15px 15px;
+    backdrop-filter: blur(0px);
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .name {
+    font-size: 16px;
+  }
+  header a {
+    font-size: 12px;
+  }
+  .talk {
+    font-size: 12px;
+  }
+  main {
+    padding: 0 40px;
+    padding-top: 60px;
+  }
+  .textName {
+    font-size: 18px;
+  }
+  .headerName {
+    font-size: 28px;
+  }
+  .text {
+    font-size: 14px;
+  }
+
+  .line {
+    height: 80px;
+  }
+  .abotMe {
+    padding: 30px 40px;
+  }
+  .headertext {
+    font-size: 28px;
+  }
+
+  .myWork,
+  .qualification,
+  .myKnowledge,
+  .certificate,
+  .question,
+  footer {
+    padding: 60px 40px;
+  }
+  .devCard img {
+    width: 600px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .talk {
+    font-size: 8px;
+  }
+  .cert_name {
+    font-size: 8px;
+  }
+}
