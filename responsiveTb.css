@@ -1,8 +1,8 @@
 @media (max-width: 900px) {
   header {
     padding: 15px 15px;
-    backdrop-filter: blur(0px);
-    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(25px);
+    background-color: rgba(0, 0, 0, 0.3);
   }
   .name {
     font-size: 16px;

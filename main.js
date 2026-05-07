@@ -149,7 +149,7 @@ document
 
     emailjs.sendForm("service_775ov9t", "template_ppudjfl", this).then(
       () => {
-        alert("Message sent successfully!");
+        alert("Sent successfully!");
       },
       (error) => {
         alert("Failed to send message");
