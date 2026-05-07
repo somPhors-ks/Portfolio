@@ -585,28 +585,25 @@ footer .form {
 }
 
 /* Animation Scroll */
-/* Fade Up */
+/* Fade Animation */
 .reveal-up {
   opacity: 0;
   transform: translateY(60px);
   transition: all 0.8s ease;
 }
 
-/* Fade Left */
 .reveal-left {
   opacity: 0;
   transform: translateX(60px);
   transition: all 0.8s ease;
 }
 
-/* Fade right */
 .reveal-right {
   opacity: 0;
   transform: translateX(-60px);
   transition: all 0.8s ease;
 }
 
-/* trigger class */
 .show {
   opacity: 1;
   transform: translate(0, 0);
