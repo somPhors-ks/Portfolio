@@ -147,7 +147,7 @@ document
   .addEventListener("submit", function (e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_775ov9t", "template_ppudjfl", this).then(
+    emailjs.sendForm("service_x2n2w1a", "template_ppudjfl", this).then(
       () => {
         alert("Sent successfully!");
       },
